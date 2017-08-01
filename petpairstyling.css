@@ -1,0 +1,67 @@
+@font-face {
+	font-family:"beba";
+	src: url('BebasNeue.otf');
+}
+@font-face {
+	font-family: "moon";
+	src: url('Moon Flower Bold.ttf');
+}
+@font-face {
+	font-family: "hun";
+	src: url('HunDIN1451.ttf');
+}
+@font-face {
+	font-family: "mono";
+	src: url('monofonto.ttf');
+}
+
+a {
+	font-family: "moon";
+	font-size: 40px;
+	color: white;
+}
+p {
+	color: white;
+	font-size: 40px;
+	font-family:'moon';
+	padding: 2cm;
+}
+header {
+	background-color: #306f8e;
+}
+h1 {
+	font-family: 'beba';
+	font-size: 100px;
+	color:white;
+}
+img {
+	
+	padding: 2cm;
+}
+h2 {
+	font-family: 'Amatic SC';
+}
+h3 {
+	font-family: 'Amatic SC';
+}
+h4 {
+	font-family: 'Amatic SC';
+}
+h5 {
+	font-family: 'moon';
+	font-size: 60px;
+	color: white;
+	padding: 2cm;
+}
+h6 {
+	font-family: 'Amatic SC';
+}
+button {
+	font-family: 'Amatic SC';
+}
+div {
+	background-color: #edb54e;
+	width: 2000px;
+	border: 0px;
+	margin: 10px;
+}

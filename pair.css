@@ -1,0 +1,81 @@
+@font-face {
+	font-family:"beba";
+	src: url('BebasNeue.otf');
+}
+@font-face {
+	font-family: "moon";
+	src: url('Moon Flower Bold.ttf');
+}
+@font-face {
+	font-family: "hun";
+	src: url('HunDIN1451.ttf');
+}
+@font-face {
+	font-family: "bud";
+	src: url('Budidaya Regular.otf');
+}
+form {
+	font-size: 40px;
+	font-family: "moon";
+}
+input {
+	size: 90px;
+}
+a {
+	font-family: "moon";
+	font-size: 40px;
+	color: white;
+}
+p {
+	color: #09717c;
+	font-size: 50px;
+	font-family:'bud';
+	
+}
+header {
+	background-color: #306f8e;
+}
+h1 {
+	font-family: 'bud';
+	font-size: 90px;
+	color:#edb54e;
+}
+button {
+	font-size: 40px;
+	width: 150px;
+	border: 0px;
+	padding: 20px;
+	font-family: moon;
+	color: white;
+	background-color: #379299;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+h2 {
+	font-family: 'bud';
+}
+h3 {
+	font-family: 'Amatic SC';
+}
+h4 {
+	font-family: 'Amatic SC';
+}
+h5 {
+	font-family: 'moon';
+	font-size: 60px;
+	color: white;
+	
+}
+h6 {
+	font-family: 'Amatic SC';
+}
+button {
+	font-family: 'Amatic SC';
+}
+div {
+	background-color: #edb54e;
+	width: 1900px;
+	border: 0px;
+	margin: 0px;
+	font-family: "moon";
+}
+

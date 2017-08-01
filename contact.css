@@ -1,0 +1,56 @@
+@font-face {
+	font-family:"alpha";
+	src: url('Alpha Beta - Demo.ttf');
+}
+@font-face {
+	font-family: "moon";
+	src: url('Moon Flower Bold.ttf');
+}
+@font-face {
+	font-family: "water";
+	src: url('Watermelon Script Demo.ttf');
+}
+@font-face {
+  font-family:"beba";
+  src: url('BebasNeue.otf');
+}
+h1 {
+	font-family:'alpha';
+	font-size: 190px;
+	color: #edb54e;;
+	padding: 1cm;
+}
+a {
+	font-family: "moon";
+	font-size: 40px;
+	color: darkblue;
+}
+h5 {
+	font-family: "moon";
+	font-size: 60px;
+	color: white;
+	padding: 0.5cm;
+}
+p {
+	color: white;
+	font-size: 60px;
+	font-family:'moon';
+	padding: 1cm;
+	
+}
+header {
+	background-color: #f2c130;
+}
+h2 {
+	font-family: 'alpha';
+	font-size: 90px;
+	color: #edb54e;
+	padding: 2cm;
+}
+div {
+	background-color: #306f8e;
+	width: 1900px;
+	border: 0px;
+	margin: 0px;
+	font-family: "moon";
+}
