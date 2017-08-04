@@ -20,13 +20,14 @@ p {
 }
 div {
 	font-family: 'dia';
+    font-size: 60px;
 }
 .dropdown {
     float: left;
     overflow: hidden;
 }
 .dropdown .dropbtn {
-    font-size: 16px;    
+    font-size: 40px;    
     border: none;
     outline: none;
     color: white;

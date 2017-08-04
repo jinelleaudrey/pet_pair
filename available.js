@@ -11,57 +11,57 @@ var values = {jane: shy}
     {
       img: 'jane.jpg',
       headerText: 'Jane',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil voluptatibus aliquam asperiores, cum distinctio aliquid recusandae velit beatae. Reprehenderit in eum, expedita, alias explicabo iure amet. Assumenda consequuntur vitae fugit.'
+      blurbText: '1 year  old⣿ female ⣿  outgoing, playful, affectionate⣿ good with other pets'
     },
     {
       img: 'peaches.jpg',
       headerText: 'Peaches',
-      blurbText: 'cliff Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae assumenda facilis qui minus, consequuntur reiciendis atque fugiat ullam id, placeat nam quas, voluptates ipsum velit voluptatum culpa numquam saepe quos!'
+      blurbText: '2 years  old⣿| female ⣿ affectionate, outgoing, playful ⣿ good with some pets'
     },
     {
       img: 'ruffino.jpg',
       headerText: 'Ruffino',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam vero cum vitae laboriosam nemo quaerat, sapiente harum reiciendis voluptas itaque incidunt molestias, fugiat asperiores dolores officiis architecto nihil assumenda. Fugiat!'
+      blurbText: '2 years old⣿ male ⣿ playful, affectionate, curious, easy going ⣿ daily walks/exercise ⣿ no training'
     },
     {
       img: 'elvis.jpg',
       headerText: 'Elvis',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, ex minima, fugiat itaque error voluptates inventore sunt sequi possimus tempore odit debitis sint. Repudiandae quia esse totam eum blanditiis sunt?'
+      blurbText: '1 year  old⣿ male ⣿ shy, affectionate, independent ⣿ good with other pets ⣿ no training'
     },
     {
       img: 'cocoa.jpg',
       headerText: 'Cocoa',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque nisi magnam cum nam iusto fugiat suscipit tempora nostrum autem, quasi, nemo illo sunt vitae id consectetur. Culpa reprehenderit esse sapiente?'
+      blurbText: '2 years old⣿ female ⣿ affectionate, happy, playful ⣿ good with other pets'
     },
     {
       img: 'guru.jpg',
       headerText: 'Guru',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, blanditiis autem, ex quidem hic unde dolorum deleniti tenetur repellat nesciunt delectus pariatur voluptate corrupti inventore iure, itaque, fuga natus doloribus.'
+      blurbText: '1 year old⣿ male ⣿ independent, shy, affectionate ⣿ good with other pets'
     },
     {
       img: 'babbette.jpg',
       headerText: 'Babbette',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque et amet aspernatur ullam, accusamus cum. Minima obcaecati voluptate velit cupiditate error ut, suscipit saepe beatae eaque veniam. Maiores, reiciendis quo.'
+      blurbText: '2 years old⣿ female ⣿ shy, independent, mellow ⣿ good with most pets'
     },
     {
       img: 'petra.jpg',
       headerText: 'Petra',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit ducimus recusandae deleniti nobis unde dolor minus ut corporis saepe tempora architecto, possimus! Obcaecati odit nam vero ipsum odio vel iste.'
+      blurbText: '8 years old⣿ female ⣿ shy, gentle, curious ⣿ good with some pets ⣿ no training'
     },
     {
       img: 'trooper.jpg',
       headerText: 'Trooper',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, laboriosam impedit expedita alias quod repellendus reiciendis, officiis ullam iste delectus perferendis odio officia, commodi nihil voluptas aliquam. Enim, minus, unde!'
+      blurbText: '2.5 years old⣿ male ⣿ outgoing, happy, playful ⣿ good with other pets'
     },
     {
       img: 'luke.jpg',
       headerText: 'Luke',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia quidem alias libero vel sunt quod non, aspernatur rerum nisi porro corrupti minus unde hic nemo labore veniam! Ipsa, nam, quas!'
+      blurbText: '13 years old ⣿ male ⣿'
     },
     {
       img: 'elwin.jpg',
       headerText: 'Elwin',
-      blurbText: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, sequi, cumque temporibus, mollitia obcaecati earum provident labore adipisci repellendus fugiat repellat quas doloribus incidunt ipsum. Tempore delectus quas illum ex!'
+      blurbText: '9 years old⣿ male ⣿ independent, mellow, shy ⣿ good with some dogs'
     },
 /*    {
       img: 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/6234/unsplashed2-photo-1414912925664-0c502cc25dde.jpeg',

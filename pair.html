@@ -1,109 +1,314 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html>
 <title>Pet Pair - Pet pairer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
-<link rel="main" href="map.html">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="pair.css">
-
-<body>
 
 <!-- Navbar -->
 <div class="w3-top">
-  <div class="w3-bar w3-card-2 w3-left-align w3-large">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+  <div class="w3-bar  w3-card-2 w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"  onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="petpair.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
     <a href="avail.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Available Dogs</a>
     <a href="cats.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Available Cats</a>
-    <a href="pair.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Get Paired!</a>
+    <a href="pair.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Pair me!</a>
     <a href="maps.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Maps</a>
     <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">FAQs</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">about Us</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact Us</a>
   </div>
+  </div>
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
-    <a href="pair.html" class="w3-bar-item w3-button w3-padding-large">Get paired</a>
-     <a href="avail.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Available dogs</a>
-    <a href="avail.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Available cats</a>
-    <a href="map.html" class="w3-bar-item w3-button w3-padding-large">Maps</a>
-    <a href="faq.html" class="w3-bar-item w3-button w3-padding-large">FAQs</a>
-    <a href="contact.html" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
-  </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">About</a>
+    <a href="pairer.html" class="w3-bar-item w3-button w3-padding-large">Pair Me!</a>
+    <a href="map.html" class="w3-bar-item w3-button w3-padding-large">Maps</a>
+    <a href="FAQpet.html" class="w3-bar-item w3-button w3-padding-large">FAQs</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Contact Us</a>
+  </div>
 </div>
+
+
 <!-- Header -->
-<header class="w3-container w3-center" style="padding:100px">
-<center><img class="w3-image" src="pair.png" alt="Architecture" width="700" height="310"></center>
-  
-  
+<header class="w3-container  w3-center" style="padding-top:100px; padding-bottom:40px;">
+  <center><img class="w3-image" src="pair.png" alt="Architecture" width="500" height="110"></center><p id="URPET"></p>
+  <p class="w3-xlarge"></p>
+<p id="URPET"></p>
+
+<style type="text/css">
+.myCustomClassName{
+color:green;
+font-size: 1em;
+font-family:arial, helvetica, sans-serif;
+}
+</style>
+
+<script>
+var script = document.createElement('script');
+script.src = 'http://code.jquery.com/jquery-1.11.0.min.js';
+script.type = 'text/javascript';
+document.getElementsByTagName('head')[0].appendChild(script);
+
+
+function Pair() {
+   //document.getElementById("answer").innerHTML = "";
+   //document.getElementById("answer2").innerHTML = "";
+
+   //checkboxes = document.querySelectionAll("input[name=Traits]:checked")
+   //checkboxes = document.querySelectionAll("input[name=animals]:checked")
+   //checkboxes = document.querySelectionAll("input[name=household]:checked")
+   //checkboxes = document.querySelectionAll("input[name=family]:checked")
+   //checkboxes = document.querySelectionAll("input[name=home]:checked")
+   //checkboxes = document.querySelectionAll("input[name=activity]:checked");
+
+/*var loving= 1
+var playful = 2
+var shy = 3
+var Outgoing= 4
+var Rub= 5
+var mellow=1
+var Excited= 5
+if = values of one pet >= 5 
+  print pet  
+var input = choice*/
+
+/* if choice== >5 vlaues 
+*/   
+
+var checkedValues = $('input:checkbox:checked').map(function() {
+    return this.value;
+}).get();
+
+
+var attributes = {
+"loving": ["Padme", "Leila and Georgina", "Juniper", "Mandy", "Shelby", "Rishi", "Stanley", "Rockie", "Shen", "Trooper", "Rufino", "Peaches", "Cocoa", "Jane"], 
+"mellow": ["Padme", "Leila and Georgina", "Shelby", "Stanley", "Rockie", "Shen", "Guru", "Babbette", "Elvis", "Elwin", "Petra", "Rufino", "Peaches", "Jane"],
+"excited": ["Mandy", "Trooper"],
+"playful": ["Juniper", "Rufino", "Jane", "Cocoa" ], 
+"shy": ["Jane", "Padme", "Juniper", "Shelby", "Rishi", "Guru", "Babbette", "Elvis", "Elwin", "Petra"], 
+"outgoing": ["Mandy", "Stanley", "Trooper"],
+"rub": ["Mandy", "Leila and Georgina", "Cocoa"], 
+"active": ["Trooper", "Guru", "Babbette", "Elvis", "Elwin", "Peaches"],
+"lazy": ["Shelby", "Stanley", "Rockie", "Shen"],
+"spacious": ["Peaches","Padme", "Leila and Georgina", "Rockie", "Trooper", "Rufino", "Peaches"],
+"ok" :["Peaches", "Trooper", "Leila and Georgina", "Juniper"],
+"few": ["Padme", "Mandy", "Shelby", "Rishi", "Stanley", "Rockie", "Shen"],
+"alone": ["Padme", "Leila and Georgina", "Mandy"],
+"family": ["Padme", "Mandy"],
+"Dog": ["Trooper", "Guru", "Cocoa"],
+"Cat":["Padme", "Leila and Georgina", "Juniper", "Mandy", "Stanley", "Rockie", "Shen"],
+"other": ["Padme", "Juniper", "Petra"],
+"siblings": ["Padme", "Leila and Georgina", "Juniper"],
+"noSiblings": ["Padme", "Juniper"]
+};
+
+var PetProfiles = {
+'Mandy': ['mandy.jpg', '1.5 YEARS OLD ⣿ Female ⣿ Affectionate, Outgoing, Likes Cuddling, Curious, ⣿ Good with some pets'], 
+'Shen': ['shen.jpg', '7 YEARS OLD ⣿ Male ⣿ Affectionate, Mellow, Likes Cuddling, Lap Cat ⣿ Good with some pets '],
+'Stanley': ['stanley.jpg', '5 YEARS OLD ⣿ Male ⣿ Affectionate, Outgoing, Likes Cuddling, Mellow, Lap Cat ⣿ Good with some pets'], 
+'Rufino': ['rufino.jpg', '2 years old⣿ male ⣿ playful, affectionate, curious, easy going ⣿ daily walks/exercise ⣿ no training'],
+'Rockie': ['rockie.jpg', '4 YEARS OLD ⣿ Female ⣿ Affectionate, Likes Cuddling, Mellow, Lap Cat ⣿ Good with some pets '],
+'Rishi': ['rishi.jpg','7 YEARS OLD ⣿ Male ⣿ Affectionate, Likes Cuddling, Shy ⣿ Good with some pets'],
+'Shelby':['shelby.jpg','1.5 YEARS OLD ⣿ Female ⣿ Affectionate, Likes Cuddling, Mellow, Shy, Lap cat ⣿ Good with some pets'],
+'Padme': ['padme.jpg', '1 YEAR OLD ⣿ Female ⣿ Affectionate, Mellow, Shy ⣿ Good with some pets'],
+'Juniper':['juniper.jpg','1 YEAR OLD ⣿ Female ⣿ Affectionate, Playful, Shy ⣿ Good with some pets'],
+'Peaches':['peaches.jpg', ' 2 years  old⣿| female ⣿ affectionate, outgoing, playful ⣿ good with some pets'],
+'Guru': ['guru.jpg', '1 year old⣿ male ⣿ independent, shy, affectionate ⣿ good with other pets'],
+'Babbette':['babbette.jpg', '2 years old⣿ female ⣿ shy, independent, mellow ⣿ good with most pets'],
+'Trooper':['trooper.jpg', ' 2.5 years old⣿ male ⣿ outgoing, happy, playful ⣿ good with other pets'],
+'Luke': ['luke.jpg', '  13 years old ⣿ male ⣿ '],
+'Elvis': ['elvis.jpg', '1 year  old⣿ male ⣿ shy, affectionate, independent ⣿ good with other pets ⣿ no training'],
+'Jane':['jane.jpg', '1 year  old⣿ female ⣿  outgoing, playful, affectionate⣿ good with other pets'],
+'Petra':['petra.jpg','8 years old⣿ female ⣿ shy, gentle, curious ⣿ good with some pets ⣿ no training'],
+'Elwin':['elwin.jpg', '9 years old⣿ male ⣿ independent, mellow, shy ⣿ good with some dogs'],
+'Cocoa':['cocoa.jpg', '2 years old⣿ female ⣿ affectionate, happy, playful ⣿ good with other pets']
+};
+
+
+
+var numValues = checkedValues.length;
+var finalAnimalList = {};
+
+for (var x=0; x< numValues; x++)
+{
+  var currentAttribute = checkedValues[x];
+  var listOfAnimalsForAttr = attributes[currentAttribute];
+  if (listOfAnimalsForAttr)
+  {
+
+  var lenAnimals = listOfAnimalsForAttr.length;
+
+  for(var y =0; y < lenAnimals; y++)
+  {
+    if(listOfAnimalsForAttr[y] in finalAnimalList)
+    {
+      var current = finalAnimalList[listOfAnimalsForAttr[y]] + 1;
+      finalAnimalList[listOfAnimalsForAttr[y]] = current;
+    }
+    else
+    {
+      finalAnimalList[listOfAnimalsForAttr[y]] = 1;
+    }
+  }
+
+  }
+}
+console.log(finalAnimalList);
+
+var highest = 0;
+var bestPetMatch = '';
+for(var index in finalAnimalList)
+{
+  if(finalAnimalList[index] > highest)
+  {
+    bestPetMatch = index;
+    highest = finalAnimalList[index];
+  }
+}
+console.log(bestPetMatch);
+
+document.write("You got paired with: " + bestPetMatch + "!!! INFO:  ");
+
+var pairedAnimalData = PetProfiles[bestPetMatch];
+document.write(pairedAnimalData);
+
+    var x = document.createElement("IMG");
+    x.setAttribute("src", pairedAnimalData[0]);
+    x.setAttribute("width", "304");
+    x.setAttribute("height", "228");
+    x.setAttribute("alt", "animal pic");
+    document.body.appendChild(x);
+
+document.write("Go to our pet list to check out your pet! ")
+};
+</script>
+
+<!-- /*var input = choices*/
+/*  if(checkboxes[i].value == "Active") {
+    var Active = ["Trooper", "Guru", "Babbette", "Elvis", "Elwin", "Peaches", ]
+
+  }
+  if(checkboxes[i].value == "lazy") {
+    var lazy =["Shelby", "Stanley", "Rockie", "Shen",]
+  }
+
+  if(checkboxes[i].value == "spacious") {
+    var spacious = ["Peaches", ]
+  }
+
+  if(checkboxes[i].value == "Ok") {
+    var Ok= ["Peaches", "Trooper"]
+  }
+
+  if(checkboxes[i].value == "few") {
+    var few = ["padme", "Max", "Mandy", "Shelby", "Rishi", "Stanley", "Rockie", "Shen",]
+  }
+
+  if(checkboxes[i].value == "Alone") {
+    var Alone= ["padme", "Leila and Georgina", "Mandy", ]
+
+  }
+
+  if(checkboxes[i].value == "family") {
+    var family = ["padme", "Max", "Mandy",]
+  }
+
+  if(checkboxes[i].value == "Dog") {
+    var Dog = ["Trooper", "Guru",]
+  }
+
+  if(checkboxes[i].value == "Cat") {
+    var Cat = ["padme", "Leila and Georgina", "Max", "juniper", "Mandy", "Stanley", "Rockie", "Shen"]
+  }
+
+  if(checkboxes[i].value == "Outgoing") {
+    var Outgoing = ["Max", "Mandy", "Stanley", "Trooper"]
+  }
+
+  if(checkboxes[i].value == "other") {
+    var Other=["padme", "Max", "juniper", "Petra" ]
+  }
+
+  if(checkboxes[i].value == "NoSiblings") {
+    var NoSiblings=["padme", "juniper", "Max" ]
+  }
+
+  if(checkboxes[i].value == "Siblings") {
+    var Siblings=["padme", "Leila and Georgina", "juniper", "Max"]
+  }
+
+  if(checkboxes[i].value == "Rub"){
+    var Rub = ["Max",]
+  }
+
+  if(checkboxes[i].value == "shy"){
+    var shy = ["Jane", "padme", "juniper", "Shelby", "Rishi", "Guru", "Babbette", "Elvis", "Elwin", "Petra"]
+  }
+
+  if(checkboxes[i].value == "playful"){
+    var Playful = ["Max", "juniper", "Rufino"]
+}
+
+  if(checkboxes[i].value == "Excited"){
+    var Excited = ["Mandy"]
+  }*/ -->
+
+
+
+
 </header>
 
-<html>
 <body>
 <center>
-<h1>Begin Here! please answer honestly:</h1>
-<form action="/action_page.php" method="get">
+<h1>Begin Here! try to answer honestly:</h1>
+<font size="+2">
+<!-- action="/action_page.php" method="get"
+ -->
+ <form>
 <p>-What are you more likely to do on the weekend?</p>
-  <input type="checkbox" name="" value="Active"> Go on a hike or go rowing<br>
-  <input type="checkbox" name="vehicle" value="lazy"> binge watch the new season of your favorite shows<br>
+  <input type="checkbox" name="Traits" value="active"> Go on a hike or go rowing<br>
+  <input type="checkbox" name="Traits" value="lazy"> binge watch the new season of your favorite shows<br>
 
- <p> -What is your home like?</p>
-  <input type="checkbox" name="" value="Spacious"> Big and spacious<br>
-  <input type="checkbox" name="" value="Ok"> Big enough<br>
-  <input type="checkbox" name="" value="Small">Small and cozy<br>
+ <p> -What is your home like?</p>
+  <input type="checkbox" name="Traits" value="spacious"> Big and spacious<br>
+  <input type="checkbox" name="home" value="ok"> Big enough<br>
+  <input type="checkbox" name="home" value="small">small and cozy<br>
 
-  <p> -How important is family to you?</p>
-  <input type="checkbox" name="" value="Siblings"> Very important<br>
-  <input type="checkbox" name="" value="Siblings"> Somewhat important<br>
-  <input type="checkbox" name="" value="NoSiblings"> Not really important<br>
+  <p> -How important is family to you?</p>
+  <input type="checkbox" name="family" value="siblings"> Very important<br>
+  <input type="checkbox" name="family" value="siblings"> Somewhat important<br>
+  <input type="checkbox" name="family" value="noSiblings"> Not really important<br>
 
 <p> -How many people do you live with?</p>
-  <input type="checkbox" name="" value="Alone"> Just myself<br>
-  <input type="checkbox" name="" value="few">2-4 people<br>
-  <input type="checkbox" name="" value="family">2-4 adults and 2-5 kids<br>
+  <input type="checkbox" name="members" value="alone"> Just myself<br>
+  <input type="checkbox" name="members" value="few">2-4 people<br>
+  <input type="checkbox" name="members" value="family">2-4 adults and 2-5 kids<br>
 
-<p> -What is the household usually like?</p>
-  <input type="checkbox" name="" value="Loud">Loud and rowdy<br>
-  <input type="checkbox" name="" value="Quiet">It's calm and quiet<br>
-  <input type="checkbox" name="" value="chill">In between, sometimes this sometimes that<br>
 <p> -What other pets do you own?</p>
-  <input type="checkbox" name="" value="Dog"> Dog<br>
-  <input type="checkbox" name="" value="Cat"> Cat<br>
-  <input type="checkbox" name="" value="Fish"> Fish<br>
-  <input type="checkbox" name="" value="Birds"> Birds<br>
-  <input type="checkbox" name="" value="Rodents"> Rodents<br>
-  <input type="checkbox" name="" value="Reptiles"> Reptiles<br>
-  <input type="checkbox" name="" value="NoPets"> I don't own any other pets<br>
+  <input type="checkbox" name="animals" value="Cog"> Dog<br>
+  <input type="checkbox" name="animals" value="Cat"> Cat<br>
+  <input type="checkbox" name="animals" value="Other"> Other<br>
 
 <p> -Do you smell nice?</p>
 <input type="checkbox" name="" value="GoodSmell"> Yes mmmm<br>
 <input type="checkbox" name="" value="BadSmell"> No ew<br>
 
 <p> -What are you looking for in a pet?</p>
-<input type="checkbox" name="" value="Loving"> Loving<br>
-<input type="checkbox" name="" value="Excited"> Excited<br>
-<input type="checkbox" name="" value="Playful"> Playful<br>
-<input type="checkbox" name="" value="Shy"> Shy<br>
-<input type="checkbox" name="" value="Attention"> Attention seeking<br>
-<input type="checkbox" name="" value="Rub"> Loves being pet<br>
-</font>
+<input class = "attr" type="checkbox" name="Traits" value="loving"> loving<br>
+<input class = "attr" type="checkbox" name="Traits" value="excited"> excited<br>
+<input class = "attr" type="checkbox" name="Traits" value="playful"> playful<br>
+<input class = "attr" type="checkbox" name="Traits" value="shy"> shy<br>
+<input class = "attr" type="checkbox" name="Traits" value="outgoing"> outgoing<br>
+<input class = "attr" type="checkbox" name="Traits" value="rub"> Loves being pet<br>
+<input class = "attr" type="checkbox" name="Traits" value="mellow"> mellow<br>
 </center>
-<script type="text/javascript">
-	function Pairer() {
-		if value of animal value of userinput
-
-	}
-
-
-</script>
-
-<center><button type="submit" value="submit" onclick="Pairer"> submit</button></center>
-
-</form>
+<!-- <input type="submit" value="Submit" onclick="Pair()">
+ -->
+ </form>
+<center><button onclick="Pair()">Submit</button></center>
 
 </body>
 </html>

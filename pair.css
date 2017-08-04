@@ -18,8 +18,12 @@ form {
 	font-size: 40px;
 	font-family: "moon";
 }
+@font-face {
+	font-family: "kopi";
+	src: url('Warung Kopi.otf');
+}
 input {
-	size: 90px;
+	size: 50px;
 }
 a {
 	font-family: "moon";
@@ -28,16 +32,16 @@ a {
 }
 p {
 	color: #09717c;
-	font-size: 50px;
-	font-family:'bud';
+	font-size: 40px;
+	font-family:'kopi';
 	
 }
 header {
 	background-color: #306f8e;
 }
 h1 {
-	font-family: 'bud';
-	font-size: 90px;
+	font-family: 'beba';
+	font-size: 50px;
 	color:#edb54e;
 }
 button {
@@ -51,7 +55,7 @@ button {
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 h2 {
-	font-family: 'bud';
+	font-family: 'kopi';
 }
 h3 {
 	font-family: 'Amatic SC';
@@ -61,7 +65,7 @@ h4 {
 }
 h5 {
 	font-family: 'moon';
-	font-size: 60px;
+	font-size: 50px;
 	color: white;
 	
 }

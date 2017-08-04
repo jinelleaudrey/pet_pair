@@ -16,15 +16,15 @@
 }
 a {
 	font-family: "moon";
-	font-size: 40px;
+	font-size: 30px;
 	color: #4380c1;
 }
 body {
 	background-color: white;
 }
 h3 {
-	color: black;
-	font-size: 100px;
+	color: #284e8c;
+	font-size: 80px;
 	font-family:'Shorelines';
 	padding: 1cm;
 	
@@ -34,15 +34,17 @@ header {
 }
 h2 {
 	font-family: 'kopi';
-	font-size: 70px;
-	color: #f9dc7c;
-	padding: 2cm;
+	font-size: 30px;
+	color: #bf9816;
+	padding-left: 5cm;
+	padding-right: 5cm;
 }
 h1 {
 	font-family: 'kopi';
-	font-size: 70px;
-	color: #bf9816;
-	padding: 2cm;
+	font-size: 40px;
+	color: black;
+	padding-left: 5cm;
+	padding-right: 5cm;
 }
 div {
 	background-color: #edb54e;

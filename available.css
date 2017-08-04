@@ -18,6 +18,10 @@
   font-family:"beba";
   src: url('BebasNeue.otf');
 }
+@font-face {
+  font-family: "kopi";
+  src: url('Warung Kopi.otf');
+}
 body {
   font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -26,7 +30,7 @@ body {
 }
 div {
     font-family: 'moon';
-    font-size: 60px;
+    font-size: 40px;
     background-color: #f7c551;
 
 }
@@ -35,7 +39,7 @@ div.container.dynamic-grid {
     background-color:#edb54e;
 }
 p {
-    font-size: 70px;
+    font-size: 30px;
     font-family: 'moon';
 }
 
@@ -45,13 +49,13 @@ header {
 }
 h1 {
   font-family: 'beba';
-  font-size: 90px;
+  font-size: 50px;
   color: white;
 }
 a {
   color: #306f8e;
   text-decoration: none;
-  font-size: 50px;
+  font-size: 40px;
  
 }
 
@@ -191,20 +195,21 @@ a {
 }
 
 .content-box-header {
-  font-size: 20px;
+  font-size: 50px;
   margin: 0.75rem 0rem 0rem 0rem;
 }
 
 .content-box-blurb {
-  font-size: 40px;
+  font-size: 25px;
   display: block;
   display: -webkit-box;
-  margin: 0rem;
+  margin: 1rem;
   max-width: 100%;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'kopi';
 }
 
 .readmore-link {
